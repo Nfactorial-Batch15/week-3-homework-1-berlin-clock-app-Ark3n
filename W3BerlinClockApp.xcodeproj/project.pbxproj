@@ -11,6 +11,8 @@
 		D8161EBB2767D52C0014C1C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8161EBA2767D52C0014C1C3 /* ContentView.swift */; };
 		D8161EBD2767D52D0014C1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8161EBC2767D52D0014C1C3 /* Assets.xcassets */; };
 		D8161EC02767D52D0014C1C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8161EBF2767D52D0014C1C3 /* Preview Assets.xcassets */; };
+		D8161EC72767DD680014C1C3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8161EC62767DD680014C1C3 /* Color.swift */; };
+		D876792D276872980078E2FD /* Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D876792C276872980078E2FD /* Logic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D8161EBA2767D52C0014C1C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D8161EBC2767D52D0014C1C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8161EBF2767D52D0014C1C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8161EC62767DD680014C1C3 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D876792C276872980078E2FD /* Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				D8161EB82767D52C0014C1C3 /* W3BerlinClockAppApp.swift */,
 				D8161EBA2767D52C0014C1C3 /* ContentView.swift */,
+				D8161EC62767DD680014C1C3 /* Color.swift */,
+				D876792C276872980078E2FD /* Logic.swift */,
 				D8161EBC2767D52D0014C1C3 /* Assets.xcassets */,
 				D8161EBE2767D52D0014C1C3 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D876792D276872980078E2FD /* Logic.swift in Sources */,
 				D8161EBB2767D52C0014C1C3 /* ContentView.swift in Sources */,
 				D8161EB92767D52C0014C1C3 /* W3BerlinClockAppApp.swift in Sources */,
+				D8161EC72767DD680014C1C3 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
